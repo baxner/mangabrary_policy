@@ -1,126 +1,183 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - Mangabrary</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #121212;
-            color: #e0e0e0;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #1e1e1e;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-            border: 1px solid #333;
-        }
-        h1, h2, h3 {
-            color: #ffffff;
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 10px;
-        }
-        h1 {
-            text-align: center;
-            color: #4CAF50;
-        }
-        .last-updated {
-            text-align: center;
-            color: #a0a0a0;
-            font-size: 0.9em;
-            margin-bottom: 20px;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        strong {
-            color: #ffffff;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Política de Privacidad | Mangabrary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <style>
+    /* Estilos generales */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif; 
+      background-color: #FAFAFA;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff5f6d, #ffc371); 
+      padding: 1.5rem;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 1.8rem;
+    }
+
+    /* Contenedor principal */
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 0 4rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    /* Títulos y párrafos */
+    h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: #222;
+    }
+
+    h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+      font-weight: 600;
+      color: #444;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    /* Clases específicas */
+    .date-updated {
+      font-style: italic;
+      color: #777;
+      margin-bottom: 2rem;
+    }
+
+    /* Enlaces */
+    a {
+      color: #ff5f6d;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsividad */
+    @media screen and (max-width: 600px) {
+      .container {
+        margin: 0 1rem;
+        padding: 1rem 0 2rem;
+      }
+      .content {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Política de Privacidad de Mangabrary</h1>
-        <p class="last-updated">Última actualización: 12 de agosto de 2025</p>
+  <header>
+    <h1>Política de Privacidad - Mangabrary</h1>
+  </header>
 
-        <h2>1. Introducción</h2>
-        <p>Bienvenido a Mangabrary. Nos comprometemos a proteger tu privacidad y a ser transparentes sobre cómo manejamos tus datos. Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y tus derechos sobre ella.</p>
-        <p>El responsable del desarrollo es <strong>MrBaxner</strong>, como se indica en la ficha de Google Play y dentro de la aplicación.</p>
+  <div class="container">
+    <div class="content">
 
-        <h2>2. Quiénes Somos</h2>
-        <p><strong>Entidad Responsable:</strong> MrBaxner (desarrollador individual)</p>
-        <p><strong>Contacto:</strong> <a href="mailto:baxner111@gmail.com">baxner111@gmail.com</a></p>
+      <p class="date-updated"><strong>Última actualización:</strong> 12 de agosto de 2025</p>
 
-        <h2>3. Datos que Recopilamos y Cómo los Usamos</h2>
-        <h3>A. Inicio de Sesión con Google (Firebase Auth)</h3>
-        <p>Para facilitar el inicio de sesión, utilizamos Firebase Auth, que permite autenticarte con tu cuenta de Google. Durante este proceso, Google comparte con nosotros tu nombre, dirección de correo electrónico y foto de perfil.</p>
-        <p><strong>Uso:</strong> Usamos esta información únicamente para crear y gestionar tu cuenta de usuario, personalizar tu experiencia y para fines de soporte. No la compartimos con terceros.</p>
+      <h2>1. Introducción</h2>
+      <p>Bienvenido a Mangabrary. Nos comprometemos a proteger tu privacidad y a ser transparentes sobre cómo manejamos tus datos. Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y tus derechos sobre ella.</p>
+      <p>El responsable del desarrollo es <strong>MrBaxner</strong>, como se indica en la ficha de Google Play y dentro de la aplicación.</p>
 
-        <h3>B. Escaneo de Portadas y Procesamiento de IA</h3>
-        <p>Nuestra función principal te permite escanear portadas de manga para agregarlas a tu colección. Este proceso implica:</p>
-        <ul>
-            <li><strong>Captura de Imagen:</strong> La aplicación captura una imagen de la portada del manga.</li>
-            <li><strong>Reconocimiento de Texto (OCR):</strong> Utilizamos ML Kit de Google para extraer el texto de la imagen. Este procesamiento se realiza en el dispositivo.</li>
-            <li><strong>Procesamiento con IA:</strong>
-                <ul>
-                    <li><strong>IA Local (Gemma):</strong> El texto extraído se procesa en tu dispositivo utilizando un modelo de IA local (Gemma a través de MediaPipe) para identificar el título, volumen y otros detalles del manga. Ningún dato se envía a servidores externos en este modo.</li>
-                    <li><strong>IA Remota (API de Gemini):</strong> Si eliges la opción de IA remota, el texto extraído (no la imagen) se envía a la API de Gemini de Google para un análisis más avanzado. No incluimos información personal en esta solicitud. El uso de la API de Gemini está sujeto a las políticas de privacidad de Google.</li>
-                </ul>
-            </li>
-        </ul>
+      <h2>2. Quiénes Somos</h2>
+      <p><strong>Entidad Responsable:</strong> MrBaxner (desarrollador individual)</p>
+      <p><strong>Contacto:</strong> <a href="mailto:baxner111@gmail.com">baxner111@gmail.com</a></p>
 
-        <h3>C. Base de Datos Local (Room)</h3>
-        <p>Toda la información de tu colección de mangas (títulos, volúmenes, portadas, etc.) se almacena en una base de datos local en tu dispositivo utilizando Room.</p>
-        <p><strong>Control del Usuario:</strong> Tú tienes control total sobre tus datos. No se sincronizan con la nube ni se comparten.</p>
+      <h2>3. Datos que Recopilamos y Cómo los Usamos</h2>
+      <h3>A. Inicio de Sesión con Google (Firebase Auth)</h3>
+      <p>Para facilitar el inicio de sesión, utilizamos Firebase Auth, que permite autenticarte con tu cuenta de Google. Durante este proceso, Google comparte con nosotros tu nombre, dirección de correo electrónico y foto de perfil.</p>
+      <p><strong>Uso:</strong> Usamos esta información únicamente para crear y gestionar tu cuenta de usuario, personalizar tu experiencia y para fines de soporte. No la compartimos con terceros.</p>
 
-        <h2>4. No Compartimos tus Datos</h2>
-        <p>No vendemos, alquilamos ni compartimos tu información personal con terceros para fines de marketing. La información solo se comparte en los siguientes casos:</p>
-        <ul>
-            <li>Con proveedores de servicios (como Google para Firebase Auth y la API de Gemini) para operar la aplicación.</li>
-            <li>Si es requerido por ley.</li>
-        </ul>
+      <h3>B. Escaneo de Portadas y Procesamiento de IA</h3>
+      <p>Nuestra función principal te permite escanear portadas de manga para agregarlas a tu colección. Este proceso implica:</p>
+      <ul>
+          <li><strong>Captura de Imagen:</strong> La aplicación captura una imagen de la portada del manga.</li>
+          <li><strong>Reconocimiento de Texto (OCR):</strong> Utilizamos ML Kit de Google para extraer el texto de la imagen. Este procesamiento se realiza en el dispositivo.</li>
+          <li><strong>Procesamiento con IA:</strong>
+              <ul>
+                  <li><strong>IA Local (Gemma):</strong> El texto extraído se procesa en tu dispositivo utilizando un modelo de IA local (Gemma a través de MediaPipe) para identificar el título, volumen y otros detalles del manga. Ningún dato se envía a servidores externos en este modo.</li>
+                  <li><strong>IA Remota (API de Gemini):</strong> Si eliges la opción de IA remota, el texto extraído (no la imagen) se envía a la API de Gemini de Google para un análisis más avanzado. No incluimos información personal en esta solicitud. El uso de la API de Gemini está sujeto a las políticas de privacidad de Google.</li>
+              </ul>
+          </li>
+      </ul>
 
-        <h2>5. Seguridad de los Datos</h2>
-        <p>Implementamos medidas de seguridad para proteger tu información, como el uso de Firebase Auth para un inicio de sesión seguro y el procesamiento de datos en el dispositivo siempre que sea posible.</p>
+      <h3>C. Base de Datos Local (Room)</h3>
+      <p>Toda la información de tu colección de mangas (títulos, volúmenes, portadas, etc.) se almacena en una base de datos local en tu dispositivo utilizando Room.</p>
+      <p><strong>Control del Usuario:</strong> Tú tienes control total sobre tus datos. No se sincronizan con la nube ni se comparten.</p>
 
-        <h2>6. Tus Derechos de Privacidad</h2>
-        <p>Tienes control total sobre tus datos y puedes ejercer tus derechos de las siguientes maneras:</p>
-        <ul>
-            <li><strong>Control de Permisos:</strong> Puedes revocar los permisos de cámara y acceso a imágenes en cualquier momento desde la configuración de tu dispositivo Android. Sin estos permisos, las funciones de escaneo de portadas no funcionarán.</li>
-            <li><strong>Acceso y Rectificación:</strong> Puedes ver y actualizar la información de tu cuenta de Google (nombre y foto de perfil) directamente en la configuración de tu cuenta de Google.</li>
-            <li><strong>Eliminación de Datos:</strong>
-                <ul>
-                    <li><strong>Datos de la Colección:</strong> Puedes eliminar mangas individuales o toda tu colección directamente desde la aplicación.</li>
-                    <li><strong>Eliminación de la Cuenta:</strong> Para eliminar tu cuenta y los datos asociados, puedes hacerlo desde la sección de ajustes de la aplicación o contactándonos a <a href="mailto:baxner111@gmail.com">baxner111@gmail.com</a>.</li>
-                    <li><strong>Desinstalación:</strong> Si desinstalas la aplicación, todos los datos almacenados localmente en tu dispositivo, incluida tu colección de manga, serán eliminados.</li>
-                </ul>
-            </li>
-            <li><strong>Oposición al Procesamiento:</strong> Puedes optar por no utilizar funciones que requieran procesamiento de datos externo, como la IA Remota, simplemente no usando esa función. La funcionalidad principal de la aplicación seguirá estando disponible.</li>
-        </ul>
+      <h2>4. No Compartimos tus Datos</h2>
+      <p>No vendemos, alquilamos ni compartimos tu información personal con terceros para fines de marketing. La información solo se comparte en los siguientes casos:</p>
+      <ul>
+          <li>Con proveedores de servicios (como Google para Firebase Auth y la API de Gemini) para operar la aplicación.</li>
+          <li>Si es requerido por ley.</li>
+      </ul>
 
-        <h2>7. Cambios en esta Política</h2>
-        <p>Podemos actualizar esta política ocasionalmente. Te notificaremos sobre cambios importantes a través de la aplicación o por otros medios.</p>
+      <h2>5. Seguridad de los Datos</h2>
+      <p>Implementamos medidas de seguridad para proteger tu información, como el uso de Firebase Auth para un inicio de sesión seguro y el procesamiento de datos en el dispositivo siempre que sea posible.</p>
 
-        <h2>8. Contacto</h2>
-        <p>Si tienes preguntas sobre esta Política de Privacidad, contáctanos en <a href="mailto:baxner111@gmail.com">baxner111@gmail.com</a>.</p>
-    </div>
+      <h2>6. Tus Derechos de Privacidad</h2>
+      <p>Tienes control total sobre tus datos y puedes ejercer tus derechos de las siguientes maneras:</p>
+      <ul>
+          <li><strong>Control de Permisos:</strong> Puedes revocar los permisos de cámara y acceso a imágenes en cualquier momento desde la configuración de tu dispositivo Android. Sin estos permisos, las funciones de escaneo de portadas no funcionarán.</li>
+          <li><strong>Acceso y Rectificación:</strong> Puedes ver y actualizar la información de tu cuenta de Google (nombre y foto de perfil) directamente en la configuración de tu cuenta de Google.</li>
+          <li><strong>Eliminación de Datos:</strong>
+              <ul>
+                  <li><strong>Datos de la Colección:</strong> Puedes eliminar mangas individuales o toda tu colección directamente desde la aplicación.</li>
+                  <li><strong>Eliminación de la Cuenta:</strong> Para eliminar tu cuenta y los datos asociados, puedes hacerlo desde la sección de ajustes de la aplicación o contactándonos a <a href="mailto:baxner111@gmail.com">baxner111@gmail.com</a>.</li>
+                  <li><strong>Desinstalación:</strong> Si desinstalas la aplicación, todos los datos almacenados localmente en tu dispositivo, incluida tu colección de manga, serán eliminados.</li>
+              </ul>
+          </li>
+          <li><strong>Oposición al Procesamiento:</strong> Puedes optar por no utilizar funciones que requieran procesamiento de datos externo, como la IA Remota, simplemente no usando esa función. La funcionalidad principal de la aplicación seguirá estando disponible.</li>
+      </ul>
+
+      <h2>7. Cambios en esta Política</h2>
+      <p>Podemos actualizar esta política ocasionalmente. Te notificaremos sobre cambios importantes a través de la aplicación o por otros medios.</p>
+
+      <h2>8. Contacto</h2>
+      <p>Si tienes preguntas sobre esta Política de Privacidad, contáctanos en <a href="mailto:baxner111@gmail.com">baxner111@gmail.com</a>.</p>
+
+    </div><!-- /.content -->
+  </div><!-- /.container -->
 </body>
 </html>
